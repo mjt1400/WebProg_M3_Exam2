@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    background-color: rgb(23, 19, 46);
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+}
+
+.flex-container div{
+    text-align:center;
+}
+
+.flex-container-row{
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    margin-top:200px;
+    justify-content: center;
+}
+
+.flex-container-row div{
+    text-align:left;
+    padding: 30px;
+}
+
+.how-flex-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-flex-container div{
+    text-align:justify;
+}
+
+
+.center-text{
+    text-align: center;
+}
+
+
+#title-text{
+    font-family: League Spartan;
+    text-align: center;
+    font-size:80px;
+    margin-bottom:0;
+    color: #ffff;
+}
+
+#title-caption{
+    font-family: League Spartan;
+    text-align: center;
+    font-size:40px;
+    margin-top:5px;
+    color: #ffff;
+}
+
+
+#tan-btn{
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border:0;
+    background-color:#ffff;  
+}
+
+#tan-btn:hover{
+    background-color:rgb(248, 126, 126);
+    cursor: pointer;  
+}
+
+#cid-btn{
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 250px;
+    font-weight: bold;
+    height: 50px;
+    border:0;
+    font-size: 40px;
+    text-align:center;
+}
+
+#cid-btn:hover{
+    background-color:rgb(248, 126, 126); 
+    cursor: pointer;
+}
+
+
+.move-animate{
+    -webkit-animation-name: moveB;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: moveB;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveB{
+
+    0%{
+        top:30%;
+    }
+
+    100%{
+        top:70%;
+    }
+
+}
+
+@-webkit-keyframes moveB{
+
+    0%{
+        top:30%;
+    }
+
+    100%{
+        top:70%;
+    }
+
+}
+
+.appear-animate{
+    -webkit-animation-name: appear;
+    -webkit-animation-duration: 4s;
+    animation-name: appear;
+    animation-duration: 4s;
+}
+
+@keyframes appear{
+
+    0%{
+        opacity:0
+    }
+    30%{
+        opacity:0
+    }
+
+    100%{
+        opacity:1
+    }
+
+}
+
+@-webkit-keyframes appear{
+
+    0%{
+        opacity:0
+    }
+
+    30%{
+        opacity:0
+    }
+
+    100%{
+        opacity:1
+    }
+
+}
+
+.fade-item {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
