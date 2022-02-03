@@ -6,6 +6,7 @@ body{
 button {
     margin: 0 auto;
     display: block;
+    
 }
 
 .flex-container{
@@ -81,7 +82,7 @@ button {
 }
 
 #tan-btn:hover{
-    background-color:rgb(248, 126, 126);
+    background-color:rgb(246, 64, 64);
     cursor: pointer;  
 }
 
@@ -97,7 +98,7 @@ button {
 }
 
 #cid-btn:hover{
-    background-color:rgb(248, 126, 126); 
+    background-color:rgb(246, 64, 64); 
     cursor: pointer;
 }
 
