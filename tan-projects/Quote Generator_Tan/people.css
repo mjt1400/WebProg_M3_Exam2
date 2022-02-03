@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+img{
+    border-radius: 20%;
+    height: 400px;
+    width: 400px;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+button{
+    height: 75px;
+    width: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 100px;
+}
+button:hover{
+    background-color: red;
+}
+p{
+    bottom: 50px;
+    margin-left: 100px;
+
+}

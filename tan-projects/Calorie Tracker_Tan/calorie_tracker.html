@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+    <title>Calorie Tracker</title>
+
+</head>
+<body onload = "onLoad()">
+    <h1 class = "Text-head">Calorie Tracker</h1>
+
+    <table class = "table-container-tracker">
+        <tr>
+            <td><table class = "table-container2">
+                    <tr>
+                        <td colspan = "2"><h1 id = "calories-display"></h1></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for = "food">Food:</label></td>
+                        <td><input type = "text" class = "Text-input" id = "food" placeholder="Type Here"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for = "calories">Calories:</label></td>
+                        <td><input type = "text" class = "Text-input" id = "calories" placeholder="Type Here"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan = "2" ><button onclick = "updateCalorie()" class = "submit-btn">Add Food</button></td>
+                    </tr>
+
+            </table></td>
+        
+
+            <td><table id = "record-table">
+                <tr>
+                    <th>Food Name</th>
+                    <th>Calories of the Food</th>
+                </tr>
+
+            </table></td>
+        </tr>
+
+    </table>
+
+
+</body>
+    
+</html>
