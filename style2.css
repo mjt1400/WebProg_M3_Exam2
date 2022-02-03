@@ -25,6 +25,7 @@ ul{
     height:5em;
 }
 .project-types{
+
     position: relative;
     display: flex;
     flex-wrap: wrap;

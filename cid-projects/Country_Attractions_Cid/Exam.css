@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap);
+
+* {
+    margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    
+    }
+    
+    htm {
+        font-size: 10px;
+    }
+    
+    body {
+        background: url(https://hdqwalls.com/download/mt-fuji-4k-ha-1920x1080.jpg);
+        background-position: 0 1000px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .container {
+        max-width: 11000px;
+        margin: 0 auto;
+        padding: 0 3rem;
+        margin: 4rem;
+        text-align: center;
+    }
+
+    h1{
+        color: whitesmoke;
+        font-size: 4.375rem;
+        font-weight: 700;
+        margin-top: 5rem;
+        letter-spacing: normal;
+        margin-bottom: 2rem;
+        font-family: "Lato", sans-serif;
+        display: grid;
+        grid-template-columns: minmax(60px, 1fr) repeat(6, minmax(50px, 190px)) minmax(60px, 1fr);
+    }
+
+    img {
+        margin: 5rem;
+        margin-bottom: 1rem;
+        margin-top: 0rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+       border-style: solid;
+      
+        
+    }
+
+    p{
+        color: whitesmoke;
+        font-size: large;
+        font-style: italic;
+        font-weight: 500;
+        letter-spacing:1px;;
+        margin-right: 10rem;
+        margin-left: 10rem;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        background-color:rgb(9, 9, 59);
+        border-style: solid;
+        border-color: whitesmoke;
+        
+        
+        }
+
+        h2{
+            color: black;
+            font-size: medium;
+            font-weight: 700;
+            margin-top: 4rem;
+            margin-bottom: 0rem;
+            letter-spacing: 5;
+            margin-bottom: 0rem;
+            font-family: "Lato", sans-serif;
+            letter-spacing: 2rem;
+            
+           
+        }
+
+        
+    

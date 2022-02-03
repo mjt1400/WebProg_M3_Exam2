@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Calorie Tracker</title>
+
+</head>
+<body onload = "pageLoad()">
+    <table class = "food-table" id = "food-table-id">
+        <tr>
+            <th>Food</th>
+            <th>Calories</th>
+        </tr>
+
+    </table>
+
+    <div class = "container2">
+        <form  action = "javascript:addFood()">
+            <div class = "portion">
+                <h1 id = "caloriesValue"></h1>
+            </div>
+            
+            <div class = "portion">
+                <input type = "text" class = "inp-class" id = "food-inp" placeholder="Name of Food" required>
+            </div>
+
+            <div class = "portion">
+                <input type = "number" step="0.01" class = "inp-class" id = "calories-inp" placeholder="Calories of Food" required>
+            </div>
+
+            <div class = "portion">
+                <input type = "submit" class = "btn1">
+            </div>
+        </form>
+
+    </div>
+
+
+
+</body>
+    <script src="script.js"></script>
+</html>

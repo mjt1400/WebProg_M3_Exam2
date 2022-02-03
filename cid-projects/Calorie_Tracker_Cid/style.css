@@ -1,0 +1,123 @@
+
+body {
+    background-color: #d1d381;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin-top:5px;;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 6);
+    border-radius: 10px;
+    width: 300px;
+    height: 370px;
+    margin-top:50px;
+    background-color: #e9ecd1;
+   
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 6);
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin-top:50px;
+    background-color: #e9ecd1;
+   
+}
+
+.btn1{
+
+    width: 80px;
+    height: 40px;
+    color:black;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid rgb(51, 50, 50);
+    margin-top: 20px;
+
+}
+
+.portion{
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+}
+
+.title-text{
+    top:40%;
+    position: absolute;
+    text-align: center;
+    font-size: 200px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.inp-class{
+    width: 200px;
+    height:20px;
+    transition: transform .2s;
+}
+
+.cb-class{
+    margin-top:5px;
+    width: 200px;
+    height: 30px;
+}
+
+.food-table{
+    border-collapse: collapse;
+    margin-right: 70px;
+    background-color:antiquewhite;
+    width: 500px;
+    border: 3px solid rgb(51, 50, 50);
+    height:70px;
+    margin-top:50px;
+    
+}
+
+.food-table th{
+    font-size:30px;
+    border: 1px solid rgb(51, 50, 50);
+    padding:15px;
+    
+}
+
+.food-table td{
+    font-size:20px;
+    font-weight: normal;
+    border: 1px solid rgb(51, 50, 50);
+    padding: 8px;
+    
+}
+
+.inp-class:focus{
+    transform: scale(1.5);
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(211, 128, 128);
+}
+
+.food-table tr:hover{
+    background-color: rgb(211, 128, 128);
+}
+
+   
+
+
+
+
