@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>King's Cup</title>
+</head>
+<button class = "back-btn" onclick = "document.location.href='index.html'">BACK</button>
+<button class = "restart-btn" onclick = "document.location.href='start.html'">RESTART GAME</button>
+<body>
+
+    <center>
+        <div class = "flex-container-row">
+            <div><img id = "cardImg"/> <br></div>
+            <div>
+                <h1 id = "rule-header"></h1> <br>
+                <h3 id = "rule-info"></h3> <br>
+            </div>
+        </div>
+    </center>
+    <div id = "num-draw">
+        <h2 id = "card-num">Cards Remaining: 52</h2>
+        <button id = "draw-btn" onclick = "drawCard()">Draw Card</button>
+    </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src = "request.js"></script>
+</html>

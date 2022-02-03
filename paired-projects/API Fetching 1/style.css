@@ -1,0 +1,340 @@
+body{
+    margin: 0;
+    background-color: rgb(23, 19, 46);
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+}
+
+.flex-container div{
+    text-align:center;
+}
+
+.flex-container-row{
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    margin-top:200px;
+    justify-content: center;
+}
+
+.flex-container-row div{
+    text-align:left;
+    padding: 30px;
+}
+
+.how-flex-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-flex-container div{
+    text-align:justify;
+}
+
+.instruction-text{
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.instruction-table{
+    margin-left: 400px;
+    margin-right: 400px;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    
+}
+
+.instruction-table th{
+    color:white;
+    border: 2px solid white;
+    padding:20px;
+    text-align:center;
+}
+
+.instruction-table td{
+    color:white;
+    border: 2px solid white;
+    padding:20px;
+}
+
+.instruction-table tr:hover{
+    background-color: rgb(255, 234, 199);
+     
+}
+
+.instruction-table tr:hover td{
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+}
+
+.instruction-table tr:hover th{
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+}
+
+.center-text{
+    text-align: center;
+}
+
+
+#title-text{
+    font-family: League Spartan;
+    text-align: center;
+    font-size:80px;
+    margin-bottom:0;
+    color: #ffff;
+}
+
+#title-caption{
+    font-family: League Spartan;
+    text-align: center;
+    font-size:40px;
+    margin-top:5px;
+    color: #ffff;
+}
+
+.instruction-text{
+    color: #ffff;
+    font-size:18px;
+}
+
+#rule-header{
+    color:#ffff;
+}
+
+#rule-info{
+    text-align:justify;
+    color:#ffff;
+}
+
+#card-num{
+    color:#ffff;
+}
+
+#start-btn{
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border:0;
+    background-color:#ffff;  
+}
+
+#start-btn:hover{
+    background-color:rgb(248, 126, 126);
+    cursor: pointer;  
+}
+
+#how-btn{
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 250px;
+    font-weight: bold;
+    height: 50px;
+    border:0;
+    font-size: 40px;
+    text-align:center;
+}
+
+#how-btn:hover{
+    background-color:rgb(248, 126, 126); 
+    cursor: pointer;
+}
+
+.back-btn{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border:0;
+    border-radius:10px;
+    background-color:rgb(223, 138, 138);
+    width:90px;
+    height:40px;
+    font-size: 17px;
+
+}
+
+.back-btn:hover{
+    background-color:rgb(255, 255, 255);
+    cursor:pointer;
+}
+
+.restart-btn{
+    position: fixed;
+    top: 20px;
+    left: 130px;
+    border:0;
+    border-radius:10px;
+    background-color:rgb(255, 255, 255);
+    width:200px;
+    height:40px;
+    font-size: 17px;
+
+}
+
+.restart-btn:hover{
+    background-color:rgb(248, 126, 126);
+    cursor:pointer;
+}
+
+#draw-btn{
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 230px;
+    height: 50px;
+    border:0;
+    background-color:#ffff;  
+}
+
+#draw-btn:hover{
+    background-color:rgb(248, 126, 126);
+    cursor: pointer;  
+}
+
+#num-draw{
+    position:absolute;
+    z-index:1;
+    top:30%;
+    left:44%;
+    text-align:center
+}
+
+.move-animate{
+    -webkit-animation-name: moveB;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: moveB;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveB{
+
+    0%{
+        top:30%;
+    }
+
+    100%{
+        top:70%;
+    }
+
+}
+
+@-webkit-keyframes moveB{
+
+    0%{
+        top:30%;
+    }
+
+    100%{
+        top:70%;
+    }
+
+}
+
+.appear-animate{
+    -webkit-animation-name: appear;
+    -webkit-animation-duration: 4s;
+    animation-name: appear;
+    animation-duration: 4s;
+}
+
+@keyframes appear{
+
+    0%{
+        opacity:0
+    }
+    30%{
+        opacity:0
+    }
+
+    100%{
+        opacity:1
+    }
+
+}
+
+@-webkit-keyframes appear{
+
+    0%{
+        opacity:0
+    }
+
+    30%{
+        opacity:0
+    }
+
+    100%{
+        opacity:1
+    }
+
+}
+
+.fade-item {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('leaguespartan-bold.eot');
+    src: url('leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('leaguespartan-bold.woff2') format('woff2'),
+         url('leaguespartan-bold.woff') format('woff'),
+         url('leaguespartan-bold.ttf') format('truetype'),
+         url('leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
