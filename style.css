@@ -1,8 +1,13 @@
 body{
     margin: 0;
-    background-color: rgb(23, 19, 46);
 }
-
+html{
+    background-color: rgb(248, 248, 248);
+    background-image: url('assets/background.jpg');
+}
+*{
+    font-family: 'Spline Sans', sans-serif;
+}
 button {
     margin: 0 auto;
     display: block;
@@ -58,7 +63,7 @@ button {
     text-align: center;
     font-size:80px;
     margin-bottom:0;
-    color: #ffff;
+    color: rgb(63, 62, 62);
 }
 
 #title-caption{
@@ -66,7 +71,7 @@ button {
     text-align: center;
     font-size:40px;
     margin-top:5px;
-    color: #ffff;
+    color: rgb(63, 62, 62);
 }
 
 
@@ -78,11 +83,13 @@ button {
     width: 150px;
     height: 50px;
     border:0;
-    background-color:#ffff;  
+    color: rgb(63, 62, 62);
+    background-color:rgb(120, 145, 221);
+    box-shadow: 15px 15px rgb(48, 48, 48);  
 }
 
 #tan-btn:hover{
-    background-color:rgb(246, 64, 64);
+    background-color: white;
     cursor: pointer;  
 }
 
@@ -95,10 +102,13 @@ button {
     border:0;
     font-size: 40px;
     text-align:center;
+    color: rgb(63, 62, 62);
+    background-color:rgb(120, 145, 221); 
+    box-shadow: 15px 15px rgb(48, 48, 48); 
 }
 
 #cid-btn:hover{
-    background-color:rgb(246, 64, 64); 
+    background-color: white; 
     cursor: pointer;
 }
 
